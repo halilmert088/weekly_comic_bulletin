@@ -1,0 +1,9 @@
+{
+ "sender" : "senderEmail@mail.com",
+ "recipient" : "receiverEmail@mail.com",
+ "subject" : "Your subject",
+ "smtp_server" : "Your SMTP server",
+ "smtp_port" : "Your port num",
+ "login_email" : "Your login",
+ "login_pass" : "Your password"
+}
