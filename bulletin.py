@@ -31,8 +31,8 @@ def scrape():
 
 #function to send e-mail
 def sendEmail(titles):
-	sender = "Gönderen e-mail"
-	recipient = "Alan e-mail"
+	sender = "sender@gmail.com"
+	recipient = "receiver@gmail.com"
 	subject = "Haftalik Cizgi Romanlar"
 	body = "Cizgi roman listesi: \n" + "\n".join(titles)
 
@@ -42,7 +42,7 @@ def sendEmail(titles):
 	msg["To"] = recipient
 
 	server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-	server.login('email@gmail.com', 'password')
+	server.login('sender@gmail.com', 'password')
 	server.send_message(msg)
 	print("Mail gönderildi!")
 
