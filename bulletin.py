@@ -51,6 +51,9 @@ def sendEmail(titles):
         msg["To"] = recipient
 
         server = smtplib.SMTP_SSL(smtp_server, smtp_port)
+        #FOR TLS CONNECTION DELETE THE LINE ABOVE AND UNCOMMENT THE ONES BELOW
+        #server = smtplib.SMTP(smtp_server, smtp_port)
+        #server.starttls()
         server.login(login_email, login_pass)
         server.send_message(msg)
         print("Mail gönderildi!")
