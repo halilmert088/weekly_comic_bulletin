@@ -4,4 +4,4 @@ A python script that scrapes and e-mails the comic books that will come out that
 ![Screenshot_20241203_030609](https://github.com/user-attachments/assets/a57f8e02-422e-4e01-ac7f-0c2bd8baccfb)
 
 Changelog:
-  The script now gets all the mail & SMTP data from a json file instead of having everything hard coded. You need mailConfig.json with the correct info in it to run the script.
+  The script now gets all the mail & SMTP data from a json file instead of having everything hard coded. You need mailConfig.json with the correct info in it to run the script. (03-12-24)
